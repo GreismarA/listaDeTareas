@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/98/2e/78/982e78e75e3186106b27fbaa039a0dae.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lista de Tareas</title>
+    <!-- Aquí van los scripts -->
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-violet-50">
+    <h1 class="bg-purple-400 text-4xl text-center font-bold pt-8 pb-40 md:pb-44 xl:pb-60 w-full ">Lista de Tareas</h1>
+    <section class="flex flex-col items-center bg-violet-50">  
+        <form name="form" class="flex pt-16 pb-8 md:py-8">
+            <input id="input" type="text" placeholder="Agrega una tarea..." class="py-4 ml-4 px-2 rounded outline-none md:w-72">
+            <button class="px-8 bg-purple-700 text-2xl text-white rounded-r font-bold md:py-3">+</button>
+        </form>
+        <div id="contenedor-lista" class="flex flex-col-reverse gap-y-4">
+
+        </div>
+    </section>
+    <!-- Aquí van los scripts -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

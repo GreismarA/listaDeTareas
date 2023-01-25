@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: -100px;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.parrafo{
+    background-color: #DBA6FF;
+    padding: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 55vw;
+}
+
+.btn-eliminar{
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    background-color: #F31899;
+}
+
+.btn-eliminar:hover{
+    background-color: #fc6ec1;
+}
+
+.btn-hecho{
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: #78D8E0;
+}
+
+.btn-hecho:hover{
+    background-color: #85f5ff;
+}
+
+/* Aqui van las medias queries */
+@media only screen and (min-width: 768px) {
+    .parrafo{
+        width: 40vw;
+    }
+
+    .btn-eliminar{
+        padding: 0.5rem 1.2rem;
+    }
+
+    .btn-hecho{
+        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+    }
+}
